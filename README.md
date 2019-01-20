@@ -8,7 +8,7 @@
 ## Install
 
 #### Step 1. Add the JitPack repository to your build file
-```
+```gradle
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
@@ -17,7 +17,7 @@ allprojects {
 ```
 
 #### Step 2. Add the dependency
-```
+```gradle
 dependencies {
     implementation 'com.github.Deishelon:RoundedBottomSheet:Tag'
 }
@@ -29,7 +29,7 @@ Simply extend `RoundedBottomSheetDialogFragment`, inflate your layout and show i
 
 ### Usage - Example
 
-```
+```kotlin
 import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialogFragment
 
 class MyRoundedBottomSheet: RoundedBottomSheetDialogFragment(){
@@ -42,7 +42,7 @@ class MyRoundedBottomSheet: RoundedBottomSheetDialogFragment(){
 
 To show your bottom sheet:
 
-```
+```kotlin
 val myRoundedBottomSheet = MyRoundedBottomSheet()
 myRoundedBottomSheet.show(supportFragmentManager, myRoundedBottomSheet.tag)
 ```
@@ -52,7 +52,7 @@ myRoundedBottomSheet.show(supportFragmentManager, myRoundedBottomSheet.tag)
 We provide a few options to customize, to make sure your Bottom Sheet will feel native to your app
 To change default values, just override the recourse you wish, like so:
 
-```
+```xml
 <color name="roundedBottomSheetPrimaryBackground">#F06292</color>
 ```
 
