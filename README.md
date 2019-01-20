@@ -1,6 +1,9 @@
 # Rounded Bottom Sheet - Android
 
-[![](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-400_framed.png)](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-Full_framed.png)
+
+|  [![](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-400_framed.png)](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-Full_framed.png)   |  [![](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/def_framed_400.png)](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-Full_framed.png)  |
+| ------------- |:-------------:|
+
 
 ## Install
 
