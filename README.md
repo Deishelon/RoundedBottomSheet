@@ -47,7 +47,13 @@ myRoundedBottomSheet.show(supportFragmentManager, myRoundedBottomSheet.tag)
 ## Customization
 
 We provide a few options to customize, to make sure your Bottom Sheet will feel native to your app
+To change default values, just override the recourse you wish, like so:
 
+```
+<color name="roundedBottomSheetPrimaryBackground">#F06292</color>
+```
+
+&nbsp;
 
 | Recourse                                                  | Description                   | Default value     |
 | -------------                                             | -------------                 | -------------     |
