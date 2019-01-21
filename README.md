@@ -64,3 +64,5 @@ To change default values, just override the recourse you wish, like so:
 | @color/roundedBottomSheetPrimaryNavigationBarColor        | Navigation bar colour         | #FFFFFFFF         |
 | @dimen/roundedBottomSheetCornerRadius                     | Bottom sheet corner radius    | 16dp              |
 | @dimen/roundedBottomSheetCornerRadiusTopPadding           | Top padding                   | 8dp               |
+| @dimen/roundedBottomSheetCornerRadiusLeftPadding          | Left padding                  | 8dp               |
+| @dimen/roundedBottomSheetCornerRadiusRightPadding         | Right padding                 | 8dp               |
