@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.Deishelon'
+group = 'com.github.Deishelon'
 version = '1.0.0'
 
 android {
@@ -29,9 +29,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-
     api 'com.android.support:design:28.0.0'
 }
 repositories {
