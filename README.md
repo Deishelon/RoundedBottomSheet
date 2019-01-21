@@ -19,7 +19,7 @@ allprojects {
 #### Step 2. Add the dependency
 ```gradle
 dependencies {
-    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.0'
+    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.1'
 }
 ```
 
