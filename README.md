@@ -1,7 +1,7 @@
 # Rounded Bottom Sheet - Android
 
 
-|  [![](https://github.com/Deishelon/RoundedBottomSheetAndroid/raw/master/screenshots/Rounded-Example-400_framed.png)](https://github.com/Deishelon/RoundedBottomSheetAndroid/raw/master/screenshots/Rounded-Example-Full_framed.png)   |  [![](https://github.com/Deishelon/RoundedBottomSheetAndroid/raw/master/screenshots/def_framed_400.png)](https://github.com/Deishelon/RoundedBottomSheetAndroid/raw/master/screenshots/Rounded-Example-Full_framed.png)  |
+|  [![](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-400_framed.png)](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-Full_framed.png)   |  [![](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/def_framed_400.png)](https://github.com/Deishelon/RoundedBottomSheet/raw/master/screenshots/Rounded-Example-Full_framed.png)  |
 | ------------- |:-------------:|
 
 
@@ -19,7 +19,7 @@ allprojects {
 #### Step 2. Add the dependency
 ```gradle
 dependencies {
-    implementation 'com.github.Deishelon:RoundedBottomSheetAndroid:1.0.0'
+    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.0'
 }
 ```
 
