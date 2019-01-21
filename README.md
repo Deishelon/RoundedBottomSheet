@@ -19,15 +19,15 @@ allprojects {
 #### Step 2. Add the dependency
 ```gradle
 dependencies {
-    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.0'
+    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.1'
 }
 ```
 
-## Usage
+## Usage - DialogFragment
 
 Simply extend `RoundedBottomSheetDialogFragment`, inflate your layout and show it
 
-### Usage - Example
+#### Example
 
 ```kotlin
 import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialogFragment
@@ -40,11 +40,19 @@ class MyRoundedBottomSheet: RoundedBottomSheetDialogFragment(){
 }
 ```
 
-To show your bottom sheet:
+## Usage - Dialog
+
+Simply extend or create an instance of `RoundedBottomSheetDialog` , inflate your layout and show it
+
+#### Example
 
 ```kotlin
-val myRoundedBottomSheet = MyRoundedBottomSheet()
-myRoundedBottomSheet.show(supportFragmentManager, myRoundedBottomSheet.tag)
+import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialog
+
+val mBottomSheetDialog = RoundedBottomSheetDialog(context!!)
+val sheetView = layoutInflater.inflate(R.layout.dialog_2_my_rounded_bottom_sheet, null)
+mBottomSheetDialog.setContentView(sheetView)
+mBottomSheetDialog.show()
 ```
 
 ## Customization
@@ -64,3 +72,5 @@ To change default values, just override the recourse you wish, like so:
 | @color/roundedBottomSheetPrimaryNavigationBarColor        | Navigation bar colour         | #FFFFFFFF         |
 | @dimen/roundedBottomSheetCornerRadius                     | Bottom sheet corner radius    | 16dp              |
 | @dimen/roundedBottomSheetCornerRadiusTopPadding           | Top padding                   | 8dp               |
+| @dimen/roundedBottomSheetCornerRadiusLeftPadding          | Left padding                  | 8dp               |
+| @dimen/roundedBottomSheetCornerRadiusRightPadding         | Right padding                 | 8dp               |
