@@ -23,11 +23,11 @@ dependencies {
 }
 ```
 
-## Usage
+## Usage - DialogFragment
 
 Simply extend `RoundedBottomSheetDialogFragment`, inflate your layout and show it
 
-### Usage - Example
+#### Example
 
 ```kotlin
 import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialogFragment
@@ -40,11 +40,19 @@ class MyRoundedBottomSheet: RoundedBottomSheetDialogFragment(){
 }
 ```
 
-To show your bottom sheet:
+## Usage - Dialog
+
+Simply extend or create an instance of `RoundedBottomSheetDialog` , inflate your layout and show it
+
+#### Example
 
 ```kotlin
-val myRoundedBottomSheet = MyRoundedBottomSheet()
-myRoundedBottomSheet.show(supportFragmentManager, myRoundedBottomSheet.tag)
+import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialog
+
+val mBottomSheetDialog = RoundedBottomSheetDialog(context!!)
+val sheetView = layoutInflater.inflate(R.layout.dialog_2_my_rounded_bottom_sheet, null)
+mBottomSheetDialog.setContentView(sheetView)
+mBottomSheetDialog.show()
 ```
 
 ## Customization
