@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group='com.github.Deishelon'
-version = '1.0.2'
+version = '1.0.0'
 
 android {
     compileSdkVersion 28
