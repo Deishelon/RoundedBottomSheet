@@ -1,4 +1,4 @@
 #!/bin/bash
 
 before_install:
-- curl https://gist.githubusercontent.com/Deishelon/55934f064c4c30846d7239cda0c0d0ba/raw/0428ce1c2f4fbb19dd9d0a1b32a1fca7664aea16/android-sdk-license.sh | sh
+- curl https://gist.githubusercontent.com/Deishelon/55934f064c4c30846d7239cda0c0d0ba/raw/5fc4563b3ddf07b53060a3c6e1de70ebcf0e526b/android-sdk-license.sh | sh
