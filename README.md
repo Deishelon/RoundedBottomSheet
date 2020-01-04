@@ -29,7 +29,7 @@ Simply extend `RoundedBottomSheetDialogFragment`, inflate your layout and show i
 
 #### Example
 
-**Kotlin Class:**:
+**Kotlin Class:**
 ```kotlin
 // MyRoundedBottomSheet.kot
 import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialogFragment
