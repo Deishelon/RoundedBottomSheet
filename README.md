@@ -29,7 +29,9 @@ Simply extend `RoundedBottomSheetDialogFragment`, inflate your layout and show i
 
 #### Example
 
+**Kotlin Class:**
 ```kotlin
+// MyRoundedBottomSheet.kot
 import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialogFragment
 
 class MyRoundedBottomSheet: RoundedBottomSheetDialogFragment(){
@@ -40,12 +42,27 @@ class MyRoundedBottomSheet: RoundedBottomSheetDialogFragment(){
 }
 ```
 
+**Java Class:**
+```java
+// MyRoundedBottomSheet.java
+import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialogFragment;
+
+public class MyRoundedBottomSheet extends RoundedBottomSheetDialogFragment {
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.dialog_2_my_rounded_bottom_sheet, container, false);
+    }
+}
+```
+
 ## Usage - Dialog
 
 Simply extend or create an instance of `RoundedBottomSheetDialog` , inflate your layout and show it
 
 #### Example
 
+**Kotlin:**
 ```kotlin
 import com.deishelon.roundedbottomsheet.RoundedBottomSheetDialog
 
@@ -53,6 +70,16 @@ val mBottomSheetDialog = RoundedBottomSheetDialog(context!!)
 val sheetView = layoutInflater.inflate(R.layout.dialog_2_my_rounded_bottom_sheet, null)
 mBottomSheetDialog.setContentView(sheetView)
 mBottomSheetDialog.show()
+```
+
+**Java:**
+```java
+RoundedBottomSheetDialog roundedBottomSheetDialog = new RoundedBottomSheetDialog( this );
+
+LayoutInflater inflater = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+View sheetView = inflater.inflate(R.layout.dialog_2_my_rounded_bottom_sheet, null);
+roundedBottomSheetDialog.setContentView(sheetView);
+roundedBottomSheetDialog.show();
 ```
 
 ## Customization
